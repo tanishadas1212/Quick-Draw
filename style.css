@@ -1,33 +1,60 @@
-body 
-{
+body {
     background-color: darkcyan;
+    font-size: 25px;
+    font-family: fantasy;
     color: white;
 }
 
-#score
-{
-    font-size: 25px;
-    margin-left: 15px;
+#score {
+    float: left;
+    margin-left: 50px;
 }
 
-#timer
-{
-    font-size: 25px;
-    margin-left: 1100px;
+#timer {
+    float: right;
+    margin-right: 50px;
 }
 
-#show_sketch 
-{
+button {
+    float: right;
+    margin-right: 20px;
+    ;
+}
+
+h1 {
+    font-family: 'Special Elite', fantasy;
+    background-color: cornsilk;
+    color: rgb(255, 217, 0);
+    font-size: 50px;
+}
+
+#show_sketch {
     float: right;
     margin-top: 10px;
     margin-right: 10px;
 }
 
-h1 
-{
-    background-color: cornsilk;
-    color: rgb(255, 217, 0);
-    font-size: 50px;
+canvas {
+    border: 5px solid white;
+    border-radius: 20px;
+    margin-top: 150px;
+    box-shadow: 5px 5px 5px grey;
+    box-shadow: 1px 1px 38px #ffffff;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+
+    from {
+        box-shadow: 1px 1px 38px grey;
+    }
+
+    to {
+        box-shadow: 1px 1px 38px white;
+    }
+
 }
 
 p
